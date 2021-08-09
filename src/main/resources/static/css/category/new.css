@@ -1,0 +1,12 @@
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+span {
+	margin-bottom: 1rem;
+}
+
+input[ type = "text" ] {
+	margin-bottom: 1rem;
+}

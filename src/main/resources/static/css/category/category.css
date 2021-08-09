@@ -1,0 +1,31 @@
+body {
+	align-items: flex-start;
+}
+
+#container {
+	width: 100%;
+
+	display: flex;
+
+	justify-content: space-between;
+}
+
+#right, #left {
+	width: 50%;
+	height: 100%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+
+	gap: 10px;
+}
+
+select, button {
+	width: 50%;
+}
+
+li {
+	margin-left: 40px;
+}
